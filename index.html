@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="convert.png" type="image/x-icon" />
+  </head>
+  <body>
+    <main>
+      <section id="sec-1">
+        <h1 class="text1">Currency Convertor</h1>
+        <form>
+          <h2 class="first">Choose Your First Currency</h2>
+          <br />
+          <select name="Money1st" id="currency1">
+            <option value="U">USD</option>
+            <option value="E">Euro</option>
+            <option value="R">Rupee</option></select
+          ><br />
+          <input type="text" id="money1" onkeyup="convert1()" /><br />
+
+          <h2 class="first">Choose Your Second Currency</h2>
+          <br />
+          <select name="Money2st" id="currency2">
+            <option value="R">Rupee</option>
+            <option value="U">USD</option>
+            <option value="E">Euro</option></select
+          ><br />
+          <input type="text" id="money2" onkeyup="convert2()" />
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
